@@ -1,0 +1,157 @@
+.camera {
+  color: rgb(5, 168, 5);
+}
+body {
+  background-color: black;
+  color: white;
+}
+.s-one {
+  padding-top: 9rem;
+  margin: 0 auto;
+}
+.hero {
+  box-shadow: -1px -25px 0px -1px rgba(58, 255, 136, 0.71) inset;
+}
+.s-two {
+  padding-top: 5rem;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: rgba(58, 238, 58, 0.18);
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.fadde:hover .overlay {
+  opacity: 1;
+}
+.fadde:hover img {
+  transform: scale(1.3, 1.3);
+}
+img {
+  transition: all 0.5s;
+}
+
+.icon {
+  color: rgb(241, 39, 39);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.bi:hover {
+  color: #1ce48a;
+}
+
+/* ///////////////////////////////// about page////////////////////////// */
+.s-contact1 {
+  padding-top: 9rem;
+  margin: 0 auto;
+}
+.cs-two {
+  padding-top: 3rem;
+  margin: 0 auto;
+}
+.cart {
+  border: 3px solid #1ce48a;
+}
+
+.cs-tree {
+  padding-top: 8rem;
+}
+.blockk .para-t::after {
+  position: absolute;
+  content: "";
+  background-color: #1ce48a;
+  width: 10%;
+  height: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 15px;
+}
+/* ///////////////////////// Services////////////////////////////// */
+.ss-one {
+  padding-top: 9rem;
+}
+.cartt {
+  background-color: rgba(128, 128, 128, 0.315);
+}
+.cartt:hover {
+  background-color: #10a83d;
+  transition: linear 1s;
+}
+.icoo {
+  background-color: rgba(128, 128, 128, 0.377);
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  margin-left: 0.7rem;
+}
+.cartt:hover .icoo {
+  background-color: white;
+}
+.ss-tree {
+  padding-top: 5rem;
+}
+.tabl-dd {
+  border-bottom: 2px dashed gray;
+}
+.csc-four {
+  padding-top: 5rem;
+}
+/* ///////////////////////////////////////////// contact/////////////////////////////////////////////////// */
+.cons-one {
+  padding-top: 9rem;
+  margin: 0 auto;
+}
+.ico {
+  background-color: rgba(128, 128, 128, 0.377);
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+}
+.ico:hover {
+  background-color: #045a33;
+}
+.sp {
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+.cont2 {
+  padding-top: 5rem;
+  margin: 0 auto;
+}
+.inputt {
+  background-color: rgba(128, 128, 128, 0.253);
+  outline: none;
+  border: none;
+  color: white;
+}
+.inputt:focus {
+  background-color: rgba(128, 128, 128, 0.253);
+  color: white;
+}
+
+.inputt:focus-visible {
+  outline: none !important;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
